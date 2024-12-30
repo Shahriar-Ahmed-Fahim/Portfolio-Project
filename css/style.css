@@ -1,0 +1,903 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+  line-height: 0.8;
+}
+
+.container {
+  max-width: 1208px;
+  padding: 0;
+}
+
+.name {
+  color: #5e3bee;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* ----Navbar Section---- */
+.navbar {
+  padding: 0;
+  padding: 30px 0px;
+  background-color: #f9f9fc;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 47px;
+}
+
+.navbar-nav li a {
+  color: #000;
+  font-family: "Poppins", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 1.5px;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-button button {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: 0;
+  background: #5e3bee;
+  padding: 11px 22px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.navbar-button button i {
+  font-size: 18px;
+}
+
+/* ----Banner Section---- */
+#banner {
+  background: #f9f9fc;
+  padding-bottom: 40px;
+}
+
+#banner .info .title {
+  color: #333;
+  font-family: "Poppins", serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  margin-top: 32px;
+}
+
+.banner-buttons {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.banner-buttons button {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-radius: 50px;
+  border: 0;
+  background: #5e3bee;
+  padding: 22px 38px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.banner-buttons button i {
+  font-size: 18px;
+}
+
+.banner-buttons a {
+  color: #333;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#banner .image {
+  background: url("../images/banner_image.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 666px;
+}
+
+#banner .image img {
+  height: 580px;
+  position: relative;
+  left: 60%;
+  top: -20px;
+  transform: translateX(-50%);
+}
+
+/* ----Counter Section---- */
+#counter {
+  margin-top: 93px;
+}
+
+#counter .row h3 {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+
+#counter .row {
+  margin: 0;
+}
+
+#counter .row > * {
+  padding: 0;
+}
+
+#counter .row p {
+  color: rgba(18, 18, 18, 0.7);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+/* ----Services Section---- */
+#services {
+  margin-top: 133px;
+  padding-bottom: 140px;
+}
+
+#services .name {
+  text-align: center;
+}
+
+#services .title {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0.22px;
+  margin: 12px 0;
+  color: #000;
+}
+
+#services .description {
+  color: rgba(18, 18, 18, 0.7);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#services .row {
+  margin: 64px 0 0 0;
+}
+
+#services .card {
+  padding: 51px 35px;
+  border: 0;
+  border-radius: 24px;
+  background: #f9f9fc;
+  box-shadow: 37px 37px 80px 0px rgba(0, 0, 0, 0.1);
+}
+
+#services .card img {
+  width: 36px;
+  height: 36px;
+  margin: 0 auto;
+}
+
+#services .card .card-body {
+  padding: 0;
+}
+
+#services .card .card-title {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  margin-top: 35px;
+  margin-bottom: 9px;
+}
+
+#services .card .card-text {
+  color: rgba(18, 18, 18, 0.7);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+
+/* ----Graphics Designer Section---- */
+#designer {
+  background: #f9f9fc;
+  padding-top: 90px;
+  padding-bottom: 15px;
+}
+
+#designer .title {
+  color: #333;
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  margin-top: 22px;
+}
+
+#designer .description {
+  color: #333;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+}
+
+#designer button {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: 0;
+  border-radius: 50px;
+  background: #5e3bee;
+  margin-top: 30px;
+  padding: 23px 39px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+#designer button i {
+  font-size: 18px;
+}
+
+#designer .image {
+  background: url("../images/designer_image.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+}
+
+#designer img {
+  height: 580px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* ----Logo Section---- */
+#logo {
+  margin-top: 127px;
+}
+
+#logo .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* ----Portfolio Section---- */
+#portfolio {
+  margin-top: 160px;
+  padding-bottom: 132px;
+}
+
+#portfolio .text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 11px;
+}
+
+#portfolio .text h2 {
+  font-family: Poppins;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0.22px;
+  color: #000;
+  margin-top: 12px;
+}
+
+#portfolio .text p {
+  color: rgba(18, 18, 18, 0.7);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  max-width: 557px;
+}
+
+#portfolio .row {
+  row-gap: 45px;
+  margin-top: 50px;
+}
+
+#portfolio .card {
+  border: 0;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 37px 37px 80px 0px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio .card .card-body {
+  padding: 0;
+  margin-top: 33px;
+  padding: 0 0 47px 47px;
+}
+
+#portfolio .card-title {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+
+#portfolio .card-text {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+/* ----Testimony Section---- */
+#testimony {
+  padding-top: 147px;
+}
+
+#testimony .name {
+  text-align: center;
+}
+
+#testimony .title {
+  font-family: Poppins;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0.22px;
+  text-align: center;
+  color: #000;
+  margin: 12px 0;
+}
+
+#testimony .description {
+  color: rgba(18, 18, 18, 0.7);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#testimony .item {
+  padding: 44px 58px 44px 42px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 27px 37px 80px 0px rgba(0, 0, 0, 0.1);
+  max-width: 584px;
+}
+
+#testimony .item .rating {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 32px;
+}
+
+#testimony .item .rating i {
+  color: #eec01c;
+}
+
+#testimony .comment {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  margin-bottom: 27px;
+}
+
+#testimony .item .profile {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+#testimony .item .info h4 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+
+#testimony .item .info p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+#testimony .comment-box i {
+  font-size: 35px;
+  color: #5e3bee;
+}
+
+#testimony .wrapper {
+  display: flex;
+  gap: 40px;
+  margin-top: 57px;
+}
+
+/* ----Contact Section---- */
+#contact {
+  margin-top: 136px;
+}
+
+#contact .container {
+  background: url("../images/contact_bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 112px 0 126px 0;
+  border-radius: 24px;
+}
+
+#contact .title {
+  color: #333;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0.25px;
+  max-width: 628px;
+  margin: 0 auto;
+}
+
+#contact button {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: 0;
+  background: #5e3bee;
+  padding: 23px 39px;
+  margin-top: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+
+#contact button i {
+  font-size: 18px;
+}
+
+/* ----Footer Section---- */
+footer {
+  margin: 0 52px;
+  border-radius: 24px 24px 0px 0px;
+  background: #333;
+  margin-top: 132px;
+  padding: 112px 205px 66px 167px;
+}
+
+footer .wrapper {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+footer .description {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  max-width: 374px;
+  margin-top: 24px;
+  margin-bottom: 75px;
+}
+
+footer .email {
+  margin-bottom: 23px;
+}
+
+footer .email,
+footer .phone {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+footer .email i,
+footer .phone i {
+  font-size: 18px;
+}
+
+footer .icons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 26px;
+}
+
+footer .icons i {
+  font-size: 23px;
+  color: #fff;
+}
+
+footer .line {
+  height: 1px;
+  width: 100%;
+  background: #404040;
+  margin-bottom: 52px;
+}
+
+footer .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  gap: 47px;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+footer ul a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+footer .privacy a {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 414px) {
+  .container {
+    max-width: 366px;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  /* ----Navbar Section---- */
+  .navbar-nav {
+    gap: 20px;
+  }
+
+  .navbar-toggler-icon {
+    background: url("../images/navbar_toggle_image.webp") no-repeat;
+  }
+
+  /* ----Banner Section---- */
+  #banner {
+    background: #f9f9fc;
+  }
+
+  #banner .name {
+    margin-top: 14px;
+  }
+
+  #banner .info .title {
+    text-align: center;
+    font-size: 44px;
+    line-height: 64px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #banner .image {
+    background-size: contain;
+    height: 440px;
+  }
+
+  #banner .image img {
+    height: 330px;
+    top: 45%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+  }
+
+  .banner-buttons {
+    flex-direction: column;
+  }
+
+  /* ----Counter Section---- */
+  #counter {
+    margin-top: 64px;
+  }
+
+  #counter .row {
+    row-gap: 50px;
+  }
+
+  /* ----Services Section---- */
+  #services {
+    margin-top: 99px;
+    padding-bottom: 64px;
+  }
+
+  #services .title {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.17px;
+    margin-bottom: 6px;
+  }
+
+  #services .row {
+    gap: 30px;
+    margin-top: 27px;
+  }
+
+  /* ----Graphics Designer Section---- */
+  #designer {
+    margin-top: 0;
+    padding: 80px 0;
+  }
+
+  #designer .title {
+    font-size: 44px;
+    line-height: 64px;
+    text-align: center;
+    margin-top: 14px;
+  }
+
+  #designer .description {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  #designer button {
+    margin-top: 14px;
+  }
+
+  .designer-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  #designer .image {
+    display: none;
+  }
+
+  /* ----Logo Section---- */
+  #logo {
+    margin-top: 67px;
+  }
+
+  #logo .wrapper {
+    flex-wrap: wrap;
+    row-gap: 22px;
+    justify-content: space-between;
+  }
+
+  #logo .wrapper img {
+    width: 166px;
+  }
+
+  /* ----Portfolio Section---- */
+  #portfolio {
+    margin-top: 99px;
+    padding-bottom: 64px;
+  }
+
+  #portfolio .text {
+    flex-direction: column;
+  }
+
+  #portfolio .text h2 {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.17px;
+  }
+
+  #portfolio .text p {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #portfolio .card-title {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 600;
+  }
+
+  #portfolio .row {
+    column-gap: 30px;
+    margin: 0;
+  }
+
+  #portfolio .row > * {
+    padding: 0;
+  }
+
+  /* ----Testimony Section---- */
+  #testimony {
+    padding: 115px 0 0;
+    background: #f9f9fc;
+  }
+
+  #testimony .title {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.17px;
+  }
+
+  #testimony .description {
+    text-align: center;
+  }
+
+  #testimony .wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /* ----Contact Section---- */
+  #contact .container {
+    padding: 73px 0 90px 0;
+  }
+
+  #contact .title {
+    font-size: 38px;
+    line-height: 52px;
+    letter-spacing: 0.19px;
+    text-align: center;
+    max-width: 314px;
+  }
+
+  #contact button {
+    margin-top: 22px;
+  }
+
+  /* ----Footer Section---- */
+  footer {
+    padding: 77px 30px 40px 30px;
+    margin: 0 24px;
+  }
+  footer .wrapper {
+    flex-direction: column;
+  }
+
+  footer .image {
+    width: 209px;
+    margin: 0 auto;
+  }
+
+  footer img {
+    width: 100%;
+  }
+
+  footer .description {
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 55px;
+  }
+
+  footer .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer .line {
+    margin-top: 50px;
+    margin-bottom: 36px;
+  }
+
+  footer .menu {
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  footer .menu ul {
+    gap: 17px;
+  }
+  footer .menu ul a {
+    font-size: 13px;
+  }
+}
